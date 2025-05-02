@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.loading, .error {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.error {
+  color: red;
+}
+
+.post-list {
+  display: grid;
+  gap: 16px;
+}
+
+.post {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
