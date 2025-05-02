@@ -1,10 +1,3 @@
-# Update the README with GitHub repository and live site links
-
-github_username = "jimcarlobagoncia"
-repo_name = "blog-post-viewer"
-live_url = f"https://{github_username}.github.io/{repo_name}"
-repo_url = f"https://github.com/{github_username}/{repo_name}"
-
 detailed_readme = f"""# 📘 Blog Post Viewer
 
 A simple React application that fetches and displays blog posts using the [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) API. The app demonstrates the use of **Axios for HTTP requests**, handles **loading and error states**, and implements an **Error Boundary** to gracefully manage JavaScript runtime errors in the UI.
