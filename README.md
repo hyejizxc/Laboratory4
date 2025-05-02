@@ -1,43 +1,38 @@
-detailed_readme = f"""# 📘 Blog Post Viewer
+# 📘 Blog Post Viewer
 
-A simple React application that fetches and displays blog posts using the [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) API. The app demonstrates the use of **Axios for HTTP requests**, handles **loading and error states**, and implements an **Error Boundary** to gracefully manage JavaScript runtime errors in the UI.
+A simple React application that demonstrates API integration using Axios, response handling, and graceful error boundaries. This project fetches blog posts from a public API and displays them with robust error handling and fallback UI components.
 
----
+## 📌 Laboratory Assessment
 
-## 🔗 Links
-
-- 🔗 Live Site: [{live_url}]({live_url})
-- 📂 GitHub Repository: [{repo_url}]({repo_url})
-
----
-
-## ✨ Features
-
-- 🔄 Fetches blog posts from a public API using Axios.
-- 📄 Displays blog post titles and bodies in a clean UI.
-- ⏳ Shows a loading message while fetching data.
-- ⚠️ Displays a user-friendly error message if fetching fails.
-- 🛡 Catches and handles unexpected UI errors with an Error Boundary.
-- 🚀 Deployable to GitHub Pages.
+**Title:** API Integration with Axios, Handling Responses, and Error Boundaries  
+**Task:** Create a Blog Post Viewer  
+**Goal:** Build a React app that fetches and displays blog posts, manages API errors, and implements an error boundary.
 
 ---
 
-## 🛠 Technologies Used
+## 🎯 Objectives
 
-- React
-- Axios
-- JavaScript (ES6+)
-- CSS
-- JSONPlaceholder API
-- GitHub Pages
+By completing this project, you will learn how to:
+
+- Fetch blog data from an API using Axios.
+- Handle API responses and manage loading and error states.
+- Create and use an Error Boundary component to gracefully handle runtime errors.
+- Display fallback UI components for a better user experience.
 
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
-1. Clone the repository:
+### Prerequisites
+
+- Node.js and npm installed
+- Basic knowledge of React
+
+### Setup Instructions
+
+1. **Create a React App:**
+
    ```bash
-   git clone {repo_url}
-   cd {repo_name}
-
+   npx create-react-app blog-post-viewer
+   cd blog-post-viewer
 
