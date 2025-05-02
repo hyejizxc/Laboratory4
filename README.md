@@ -6,7 +6,7 @@ A simple React application that demonstrates API integration using Axios, respon
 
 Here’s how the Blog Post Viewer looks:
 
-[(Screenshot.png)]
+!(Screenshot.png)
 
 ## 📌 Laboratory Assessment
 
