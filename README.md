@@ -2,6 +2,12 @@
 
 A simple React application that demonstrates API integration using Axios, response handling, and graceful error boundaries. This project fetches blog posts from a public API and displays them with robust error handling and fallback UI components.
 
+## 📸 Screenshot
+
+Here’s how the Blog Post Viewer looks:
+
+![Screenshot of the Blog Post Viewer](Screenshot.png)
+
 ## 📌 Laboratory Assessment
 
 **Title:** API Integration with Axios, Handling Responses, and Error Boundaries  
